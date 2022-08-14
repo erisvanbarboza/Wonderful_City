@@ -4,6 +4,7 @@
     box-shadow: 0;
 }
 
+
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -70,7 +71,7 @@
     margin-top: 4%;
 }
 
-.apelido{
+.titulo{
     height: 80px;
     font-size: 40px;
     text-align: center;
@@ -88,44 +89,119 @@
     width: 800px;
 }
 
-.img-rio{
-    width: 1000px;
-    margin-left: 4.5%;
-    margin-top: 2%;
-}
-
 .sinopse{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; 
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.botao button{
-    height: 100px;
-    width: 200px;
-    text-decoration: none;
-    
+    background-color: rgb(255, 140, 45);
     color: white;
-    padding: 15px;
-    border-radius: 5px;
-    transition: 0.5s;
-
-    border-radius: 20px;
-    border: blue;
-    border: solid;
-
-    padding: 5px;
-
-    font-weight: 900;
-
-    margin-left: 40%;
-    
-
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 10vh;
+    padding: 5vh;
 }
 
-.botao button{
+.email{
+    background-color: rgb(255, 140, 45);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 10vh;
+    padding: 5vh;
+}
+
+.endereco-email{
+    margin-top: 3%;
+}
+
+.endereco-email a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.endereco-email a:visited{
+    color: none;
+}
+
+.endereco-email a:hover{
+    color: purple;
+    background-color: azure;
+    border: solid purple;
+}
+
+.telefone{
+    background-color: rgb(255, 140, 45);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 10vh;
+    padding: 5vh;
+}
+
+.numero-tel{
+    margin-top: 3%;
+}
+
+.numero-tel a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.numero-tel a:visited{
+    color: none;
+}
+
+.numero-tel a:hover{
+    color: purple;
+    background-color: azure;
+    border: solid purple;
+}
+
+.mensagem{
+    background-color: rgb(255, 140, 45);
+    color: white;
+    border-radius: 10px;
+    border: solid rgb(255, 140, 45);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 660px;
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 10vh;
+   margin-bottom: 7vh;
+}
+
+p.label-mensagem{
+    margin-top: 0;
+    padding:0;
+}
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 2vh;
+    resize: none;
+}
+
+.botao{
     height: 80px;
     text-decoration: none;
     background-color: rgb(255, 140, 45);
@@ -139,21 +215,19 @@
     border: solid;
 
     font-weight: 900;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 1em;
+    /* margin-bottom: 18%; */
+    margin-left: 7%;
+    
 }
 
-.botao button:hover{
+.botao:hover{
     color: purple;
     
 }
 
-.botao button:visited{
+.botao:visited{
     color: none;
-}
-
-.botoes-barra{
-    margin-top: 5vh;
 }
 
 .rodape{
@@ -169,3 +243,4 @@
     padding-top: 7vh;
     margin-top: 4%;
 }
+
